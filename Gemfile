@@ -15,6 +15,7 @@ gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.3.0'
 
 group :development, :test do
+  gem 'pry-rails'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
